@@ -1,7 +1,7 @@
 # Draft
 草稿本 canvas
 
-
+[![](https://www.jitpack.io/v/blueskky/Draft.svg)](https://www.jitpack.io/#blueskky/Draft)
 
 ##### 草稿本 canvas
 
