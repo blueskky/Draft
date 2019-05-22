@@ -34,7 +34,7 @@ draft.attach(this，true);
 
 
 
-1.2  在activity中有多个fragment，草稿纸要记录每个fragment上的canvans
+1.2  在activity中有多个fragment，草稿纸要记录每个fragment上的canvans ,以下二者选其一
 
 ```java
 //fragment  通过viewpager方式设置 
