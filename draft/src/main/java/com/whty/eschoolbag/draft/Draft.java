@@ -30,12 +30,13 @@ public class Draft {
     private boolean isReocrdHistory;
 
 
+    public void attach(Activity context) {
+        this.attach(context, false);
+    }
 
-
-
-    public void attach(Activity context,boolean isReocrdHistory) {
+    public void attach(Activity context, boolean isReocrdHistory) {
         this.context = context;
-        this.isReocrdHistory=isReocrdHistory;
+        this.isReocrdHistory = isReocrdHistory;
         addLifeListener(context);
     }
 
@@ -112,10 +113,10 @@ public class Draft {
         attachButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(viewPager!=null){
+                if (viewPager != null) {
                     currentFrgIndex = viewPager.getCurrentItem();
                 }
-                CanvasActivity.launch(context, currentFrgIndex,isReocrdHistory);
+                CanvasActivity.launch(context, currentFrgIndex, isReocrdHistory);
             }
         });
     }
