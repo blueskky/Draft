@@ -18,7 +18,6 @@ public class TestActivity extends AppCompatActivity {
 
         draft = new Draft();
         draft.attach(this,false);
-
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
         viewPager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
             @Override
