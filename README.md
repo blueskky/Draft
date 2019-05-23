@@ -18,7 +18,7 @@ allprojects {
 
 ```groovy
 dependencies {
-	        implementation 'com.github.blueskky:Draft:V1.0.0'
+	        implementation 'com.github.blueskky:Draft:v1.0.0'
 	}
 ```
 
