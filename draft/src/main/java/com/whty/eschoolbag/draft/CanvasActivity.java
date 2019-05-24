@@ -81,6 +81,7 @@ public class CanvasActivity extends Activity {
     private ImageView ivClose;
     private int index;
     private boolean isRecord;
+    private View rl_back;
 
 
     public static void launch(Activity context, int currentItem, boolean isReodrd) {
@@ -122,6 +123,8 @@ public class CanvasActivity extends Activity {
         ivSave = findViewById(R.id.view_save);
 
         btnSave = findViewById(R.id.btn_save);
+        rl_back = findViewById(R.id.rl_back);
+
     }
 
 
@@ -234,7 +237,7 @@ public class CanvasActivity extends Activity {
         ivSave.setEnabled(false);
         btnSave.setEnabled(false);
 
-        ivClose.setOnClickListener(new View.OnClickListener() {
+        rl_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();

@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.whty.eschoolbag.draft"
+        applicationId "com.whty.eschoolbag.draft.demo"
         minSdkVersion 14
         targetSdkVersion 28
         versionCode 1
@@ -24,8 +24,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-//    implementation project(':draft')
+    implementation project(':draft')
 
-    implementation 'com.github.blueskky:Draft:v1.0.0'
 }
 
