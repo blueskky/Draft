@@ -19,6 +19,7 @@ public class TestActivity extends AppCompatActivity {
 
         //分支 branch_ll 修改
 
+
         draft = new Draft();
         draft.attach(this,false);
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
