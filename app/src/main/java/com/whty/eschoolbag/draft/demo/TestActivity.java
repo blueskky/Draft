@@ -44,19 +44,10 @@ public class TestActivity extends AppCompatActivity {
                 draft.setCurrentFrgIndex(position);
             }
         });
-
-//        draft.setViewPager(viewPager);
-
-
-        //我是分支 develop_ll 的修改
-
-
-        // 1. 我是主线的修改 11：53
-
-
-        //我是分支develop_ll 的二次修改
-
     }
+
+
+    //我是主线
 
 
 }
