@@ -16,11 +16,6 @@ public class TestActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_other);
-
-        //分支 branch_ll 修改
-
-        //分值二次修改
-
         draft = new Draft();
         draft.attach(this,false);
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
@@ -54,6 +49,9 @@ public class TestActivity extends AppCompatActivity {
 
 
         //我是分支 develop_ll 的修改
+
+
+        // 1. 我是主线的修改 11：53
 
     }
 
