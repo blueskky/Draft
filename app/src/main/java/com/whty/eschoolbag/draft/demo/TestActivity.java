@@ -17,14 +17,14 @@ public class TestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_other);
         draft = new Draft();
-        draft.attach(this,false);
+        draft.attach(this, false);
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
         viewPager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int i) {
                 TestFragment fragment = new TestFragment();
-                Bundle bundle=new Bundle();
-                bundle.putString("index",""+i);
+                Bundle bundle = new Bundle();
+                bundle.putString("index", "" + i);
                 fragment.setArguments(bundle);
 
                 return fragment;
@@ -37,7 +37,7 @@ public class TestActivity extends AppCompatActivity {
         });
 
 
-        viewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener(){
+        viewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
             @Override
             public void onPageSelected(int position) {
                 super.onPageSelected(position);
@@ -54,7 +54,7 @@ public class TestActivity extends AppCompatActivity {
         // 1. 我是主线的修改 11：53
 
 
-        //我是主线develop_ll 的二次修改
+        //我是分支develop_ll 的二次修改
 
     }
 
