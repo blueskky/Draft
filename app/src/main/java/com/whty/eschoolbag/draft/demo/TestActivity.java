@@ -48,6 +48,6 @@ public class TestActivity extends AppCompatActivity {
 
         //我是主线修改了代码
 
-        //我是分支修改了代码
+       //我是主线，没有commit
     }
 }
