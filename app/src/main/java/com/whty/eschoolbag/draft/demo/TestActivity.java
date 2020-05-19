@@ -50,4 +50,6 @@ public class TestActivity extends AppCompatActivity {
 
        //我是主线，没有commit
     }
+
+    //我是主线 stash
 }
