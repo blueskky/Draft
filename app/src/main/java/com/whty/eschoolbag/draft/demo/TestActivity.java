@@ -45,5 +45,9 @@ public class TestActivity extends AppCompatActivity {
                 draft.setCurrentFrgIndex(position);
             }
         });
+
+        //我是主线修改了代码
+
+        //我是分支修改了代码
     }
 }
