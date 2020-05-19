@@ -47,12 +47,4 @@ public class TestActivity extends AppCompatActivity {
         });
     }
 
-   //主线更改  删除
-    //我是主线 stash
-
-    //我是分支  519
-
-    //分支修改   13.42
-
-    //主线修改了bug
 }
