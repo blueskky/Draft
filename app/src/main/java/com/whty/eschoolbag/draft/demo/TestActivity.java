@@ -45,11 +45,9 @@ public class TestActivity extends AppCompatActivity {
                 draft.setCurrentFrgIndex(position);
             }
         });
-
-        //我是主线修改了代码
-
-       //我是主线，没有commit
     }
 
     //我是主线 stash
+
+    //我是分支  519
 }
